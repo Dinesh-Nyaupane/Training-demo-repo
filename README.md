@@ -172,4 +172,146 @@ After pushing a branch, go to GitHub and:
 
 ## 🚀 Happy Coding!
 
-Learning Git and GitHub is a must for developers. Keep experimenting, commit often, and enjoy version control magic! 😄
+Learning Git and GitHub is a must for developers. Keep experimenting, commit often, and enjoy version control magic! 😄---
+
+## 🔁 When to Use a Pull Request (PR)
+
+A **Pull Request** is a way to propose changes you've made in a branch and request that they be merged into another branch (usually `main`). It’s most helpful in collaborative environments or open-source projects.
+
+### ✅ When to Use a Pull Request
+
+#### 1. Collaborating in a Team
+Use a PR when you want your teammates to:
+- Review your code
+- Suggest improvements
+- Approve changes before merging to `main`
+
+#### 2. Working on Feature Branches
+After completing work in a branch like `feature/login`, open a PR to merge it into the main project.
+
+#### 3. Code Review and Feedback
+PRs allow inline comments, suggestions, and feedback before merging changes.
+
+#### 4. Track Changes and Discussion
+PRs keep track of:
+- What changed
+- Who changed it
+- Why it was changed
+
+#### 5. Safe Deployment Workflow
+Used in professional workflows where automatic tests run when a PR is opened to ensure nothing breaks.
+
+#### 6. Open Source Contributions
+When contributing to others’ projects:
+- Fork the repo
+- Create a new branch
+- Push changes
+- Open a PR
+
+---
+
+### 🚫 When You Don’t Need a Pull Request
+
+- When working solo and no review is needed.
+- For minor fixes in personal repositories.
+
+---
+
+## 🧪 Example Pull Request Workflow
+
+```bash
+# Create and switch to a new branch
+git checkout -b feature/my-new-feature
+
+# Make changes, then:
+git add .
+git commit -m "Add my new feature"
+git push origin feature/my-new-feature
+```
+
+Then on GitHub:
+1. Click **Compare & Pull Request**
+2. Add title and description
+3. Click **Create Pull Request**
+
+---
+
+## 📋 Summary Table
+
+| Use PR When... | Why |
+|----------------|-----|
+| Finished a feature | Merge it to main safely |
+| Team collaboration | For code review and approval |
+| Contributing to others’ code | Submit changes to original repo |
+| Clean and trackable changes | Good project management |---
+
+## 🔁 When to Use a Pull Request (PR)
+
+A **Pull Request** is a way to propose changes you've made in a branch and request that they be merged into another branch (usually `main`). It’s most helpful in collaborative environments or open-source projects.
+
+### ✅ When to Use a Pull Request
+
+#### 1. Collaborating in a Team
+Use a PR when you want your teammates to:
+- Review your code
+- Suggest improvements
+- Approve changes before merging to `main`
+
+#### 2. Working on Feature Branches
+After completing work in a branch like `feature/login`, open a PR to merge it into the main project.
+
+#### 3. Code Review and Feedback
+PRs allow inline comments, suggestions, and feedback before merging changes.
+
+#### 4. Track Changes and Discussion
+PRs keep track of:
+- What changed
+- Who changed it
+- Why it was changed
+
+#### 5. Safe Deployment Workflow
+Used in professional workflows where automatic tests run when a PR is opened to ensure nothing breaks.
+
+#### 6. Open Source Contributions
+When contributing to others’ projects:
+- Fork the repo
+- Create a new branch
+- Push changes
+- Open a PR
+
+---
+
+### 🚫 When You Don’t Need a Pull Request
+
+- When working solo and no review is needed.
+- For minor fixes in personal repositories.
+
+---
+
+## 🧪 Example Pull Request Workflow
+
+```bash
+# Create and switch to a new branch
+git checkout -b feature/my-new-feature
+
+# Make changes, then:
+git add .
+git commit -m "Add my new feature"
+git push origin feature/my-new-feature
+```
+
+Then on GitHub:
+1. Click **Compare & Pull Request**
+2. Add title and description
+3. Click **Create Pull Request**
+
+---
+
+## 📋 Summary Table
+
+| Use PR When... | Why |
+|----------------|-----|
+| Finished a feature | Merge it to main safely |
+| Team collaboration | For code review and approval |
+| Contributing to others’ code | Submit changes to original repo |
+| Clean and trackable changes | Good project management |
